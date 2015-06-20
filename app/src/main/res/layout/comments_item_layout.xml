@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.facebook.login.widget.ProfilePictureView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/profile_picture"
+            android:layout_marginLeft="@dimen/newsfeed_margin"
+            android:layout_marginTop="@dimen/newsfeed_margin">
+
+        </com.facebook.login.widget.ProfilePictureView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/user_name_tv"
+            android:layout_toRightOf="@id/profile_picture"
+            android:layout_marginLeft="@dimen/newsfeed_margin"
+            android:layout_marginTop="@dimen/newsfeed_margin"
+            android:textColor="@color/main_color"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-medium"
+            android:text="sfwe"
+            android:textSize="15sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/comment_tv"
+            android:layout_toRightOf="@id/profile_picture"
+            android:layout_below="@id/user_name_tv"
+            android:layout_marginLeft="@dimen/newsfeed_margin"
+            android:layout_marginRight="@dimen/newsfeed_margin"
+            android:layout_marginTop="2dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="asfa"
+            android:textColor="#616161"
+            android:textSize="13sp"/>
+
+        </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/main_color"
+        android:layout_marginTop="@dimen/newsfeed_margin"
+        ></View>
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:facebook="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/main_color">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:text="fApp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="50sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:text="CodeCAMP - Plava tvornica"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="20sp"/>
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp" />
+
+</LinearLayout>

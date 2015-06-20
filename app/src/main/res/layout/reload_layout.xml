@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/blabla"
+    android:gravity="center"
+    android:background="@color/main_color"
+    android:layout_margin="@dimen/newsfeed_margin">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text"
+            android:text="Load more..."
+            android:layout_marginLeft="10dp"
+            android:textColor="#fff"
+            android:layout_centerVertical="true"
+            android:textSize="17sp"
+            android:layout_margin="@dimen/newsfeed_margin"
+            android:textStyle="bold"/>
+
+
+
+
+</LinearLayout>
